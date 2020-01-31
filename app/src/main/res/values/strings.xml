@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="textViewTitleForCalculator">Android Calculator</string>
+    <string name="editTextForFirstInput">Enter First Number</string>
+    <string name="editTextForSecondInput">Enter Second Number</string>
+    <string name="buttonAdd">Add</string>
+    <string name="buttonSubtract">Subtract</string>
+    <string name="buttonMultiply">Multiply</string>
+    <string name="buttonDivide">Divide</string>
+    <string name="buttonModulus">Modulus</string>
+    <string name="buttonClear">Clear</string>
 </resources>
