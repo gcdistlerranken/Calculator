@@ -66,7 +66,8 @@ public class MainActivity extends AppCompatActivity
                 if (keepGoing)
                 {
                     answer = firstNumber + secondNumber;
-                    resultStr = "Calculation: " + firstNumber + " + " + secondNumber + " = " + answer;
+                    resultStr = "Calculation: " + firstNumber + " + " + secondNumber +
+                                " = " + answer;
                     Toast toast = Toast.makeText(getApplicationContext(),
                                                  CALCULATIONCOMPLETED,
                                                  Toast.LENGTH_LONG);
@@ -91,7 +92,8 @@ public class MainActivity extends AppCompatActivity
                 if (keepGoing)
                 {
                     answer = firstNumber - secondNumber;
-                    resultStr = "Calculation: " + firstNumber + " - " + secondNumber + " = " + answer;
+                    resultStr = "Calculation: " + firstNumber + " - " + secondNumber +
+                                " = " + answer;
                     Toast toast = Toast.makeText(getApplicationContext(),
                                                  CALCULATIONCOMPLETED,
                                                  Toast.LENGTH_LONG);
@@ -116,7 +118,8 @@ public class MainActivity extends AppCompatActivity
                 if (keepGoing)
                 {
                     answer = firstNumber * secondNumber;
-                    resultStr = "Calculation: " + firstNumber + " * " + secondNumber + " = " + answer;
+                    resultStr = "Calculation: " + firstNumber + " * " + secondNumber +
+                                " = " + answer;
                     Toast toast = Toast.makeText(getApplicationContext(),
                                                  CALCULATIONCOMPLETED,
                                                  Toast.LENGTH_LONG);
@@ -141,7 +144,8 @@ public class MainActivity extends AppCompatActivity
                 if (keepGoing)
                 {
                     answer = firstNumber / secondNumber;
-                    resultStr = "Calculation: " + firstNumber + " / " + secondNumber + " = " + answer;
+                    resultStr = "Calculation: " + firstNumber + " / " + secondNumber +
+                                " = " + answer;
                     Toast toast = Toast.makeText(getApplicationContext(),
                                                  CALCULATIONCOMPLETED,
                                                  Toast.LENGTH_LONG);
@@ -166,7 +170,8 @@ public class MainActivity extends AppCompatActivity
                 if (keepGoing)
                 {
                     answer = firstNumber % secondNumber;
-                    resultStr = "Calculation: " + firstNumber + " % " + secondNumber + " = " + answer;
+                    resultStr = "Calculation: " + firstNumber + " % " + secondNumber +
+                                " = " + answer;
                     Toast toast = Toast.makeText(getApplicationContext(),
                                                  CALCULATIONCOMPLETED,
                                                  Toast.LENGTH_LONG);
